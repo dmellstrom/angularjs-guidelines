@@ -1,8 +1,4 @@
 # AngularJS Development Guidelines
-### Purpose of this Guide
-To introduce specific practices that can help improve performance, stability, legibility, maintainability, compliance, and end quality of AngularJS applications.
-### More Guidelines Than Actual Rules
-Universal adherence to these rules can be difficult or unadvisable. However, special attention should be paid to testing and assurance of the objectives listed above, when publishing code that violates the principles of this guide.
 ---
 - Use `controllerAs` syntax instead of injecting `$scope` -- only inject `$scope` into controllers when needed e.g. when establishing watchers or listeners
 - Avoid unnecessary dependency injections
@@ -21,7 +17,3 @@ Universal adherence to these rules can be difficult or unadvisable. However, spe
 - Never use `$rootScope.$on` in a controller unless accompanied by a corresponding `$scope.$on('$destroy', myListener)`
 - Pass scope variables (as well as all other volatile data) by value when building requests
 - Use function hoisting and the `main` idiom to organize source
----
-### Sources
-- [John Papa Angular Styleguide](https://github.com/johnpapa/angular-styleguide)
-- [AngularJS Docs](https://docs.angularjs.org/api)
