@@ -18,3 +18,5 @@ Universal adherence to these rules can be difficult or unadvisable. However, spe
 ### Sources
 - [John Papa Angular Styleguide](https://github.com/johnpapa/angular-styleguide/tree/master/a1/README.md)
 - [AngularJS Docs](https://docs.angularjs.org/api)
+- [Minko Gechev AngularJS Style Guide](https://mgechev.github.io/angularjs-style-guide/)
+- [Aviv Ben-Yosef](https://codelord.net)

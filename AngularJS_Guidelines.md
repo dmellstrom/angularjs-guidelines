@@ -9,6 +9,8 @@
 - Use `ng-cloak` to prevent all remaining flashes of unresolved template
 - Use `ng-strict-di` to introduce strict dependency checking
 - Prefer `ng-if` over `ng-show`/`ng-hide`
+- Use `track by` clause on any `ng-repeat` that undergoes refresh
+- Avoid manipulating the DOM outside of directives
 - Avoid heavy controllers -- put as much logic in services as possible, especially network logic
 - Use promises to get data from services
 - Use constructor style for your controller names (e.g. `HomeController`)
