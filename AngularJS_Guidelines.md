@@ -19,3 +19,5 @@
 - Never use `$rootScope.$on` in a controller unless accompanied by a corresponding `$scope.$on('$destroy', myListener)`
 - Pass scope variables (as well as all other volatile data) by value when building requests
 - Use function hoisting and the `main` idiom to organize source
+- Use resolver pattern to get data from services
+- Structure app as a series of nested components, all the way up to the route templates/views

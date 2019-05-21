@@ -2,7 +2,7 @@
 
 ### Purpose of this Guide
 
-To introduce specific practices that can help improve performance, stability, legibility, maintainability, compliance, and end quality of AngularJS applications.
+To introduce specific practices that can help improve performance, stability, legibility, maintainability, compliance, reactivity, and end quality of AngularJS applications.
 
 ### More Guidelines Than Actual Rules
 
